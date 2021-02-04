@@ -1,8 +1,8 @@
 # TASK MANAGER 
 
-A simple todo list to manage tasks build with redux toolkit
+A simple todo list to manage tasks built using react and redux toolkit
 
-### [Live Demo](https://coronacovid19-tracker.netlify.app/)
+### [Live Demo](https://managetasks.netlify.app/)
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ A simple todo list to manage tasks build with redux toolkit
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jawariaalvi32/corona-tracker.git
+   git clone https://github.com/jawariaalvi32/task-manager.git
    ```
 2. Install NPM packages
    ```sh

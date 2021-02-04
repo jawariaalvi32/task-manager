@@ -22,8 +22,8 @@ function Todos() {
                 state.map((item) => {
                     console.log(item)
                  return (
-                    <div className={styles.flex} style={{margin:"15px"}}>
-                    <table>
+                    <div key={item.id} className={styles.flex} style={{margin:"15px"}}>
+                    <table key={item.id}>
                         <tr>
                             <td><li key={item.id}>{item.text}</li></td>
                             <td>

@@ -5,6 +5,7 @@ import {addTodo, delAll} from '../features/todolist/todoSlicer'
 import styles from './Todo.module.css'
 import {MdAdd} from 'react-icons/md'
 import {RiDeleteBin6Line} from 'react-icons/ri'
+import image from '../todo.jpg'
 
 function AddTodo() {
     const dispatch = useDispatch()
@@ -28,6 +29,9 @@ function AddTodo() {
     return (
         <div>
             <h3 className={styles.value} style={{margin:"25px"}}>TASK MANAGER</h3>
+            <div>
+            <img src={image} width="20%"/>
+            </div>
              <div>
                 <input type="text" className={styles.textbox} onChange={handleChange}/>
                 <button className={`${styles.button} ${styles.btnLg}`} onClick={handlesubmit}><MdAdd color="#218838"/></button>
